@@ -1,0 +1,117 @@
+.parent-nav{
+    text-decoration: none;
+    color: #aaa;
+    font-size: .65rem;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 2rem;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    padding-left: 10%;
+}
+
+.menu-container{
+    margin-top: 2rem;
+}
+
+#active{
+    background-color: #FA4A84;
+}
+
+@media(max-width: 768px) {
+    .aside-button{
+        height: 2rem;
+        width: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: transparent!important;
+        border: none;
+        margin-left: 1rem;
+    }
+    
+
+    .logo{
+        width: 5rem;
+        height: 3rem;
+    }
+    
+    .aside-wrapper {
+        width: 80%;
+        height: 100%;
+
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0%;
+
+        background-color: #270450;
+        transition: ease-in .5s!important;
+        z-index: 99;
+    }
+ 
+    .aside-wrapper.show{
+        left: -80%;
+        transition: ease-out 1s!important;
+    }
+
+    .header{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        box-shadow: 2px 2px 2px 2px #eee;
+        
+    }
+
+    .cancel-button{
+        display: block;
+    }
+
+    .sm-background{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 51;
+    }
+}
+
+@media(min-width: 768px) {
+    .aside-button{
+        display: none;
+    }
+
+    .logo{
+        width: 120px;
+        height: 30px;
+        padding-top: 1rem;
+    }
+
+    .cancel-button{
+        display: none;
+    }
+
+    .aside-wrapper {
+        width: 18%;
+        height: 100vh;
+
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -18%;
+
+        background-color: #270450;
+        transition: ease-in-out 1s;
+    }
+    
+    .aside-wrapper.show{
+        left: 0;
+    }
+
+    .sm-background{
+        display: none;
+    }
+}

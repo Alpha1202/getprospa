@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="223" height="85" viewBox="0 0 223 85">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #dcdcee;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: #fa4a84;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-width: 1.5px;
+      }
+
+      .cls-5 {
+        font-size: 28px;
+        font-family: Helvetica;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Background" class="cls-1" width="223" height="85" rx="13"/>
+    </clipPath>
+  </defs>
+  <g id="Stroke_button" data-name="Stroke button" class="cls-2">
+    <g id="Group_22" data-name="Group 22" transform="translate(58 29)">
+      <path id="Combined_Shape" data-name="Combined Shape" class="cls-3" d="M0,20V16.667H30V20Zm0-8.333V8.333H30v3.334ZM0,3.334V0H30V3.334Z" transform="translate(0 2.5)"/>
+      <circle id="Oval" class="cls-4" cx="4.167" cy="4.167" r="4.167" transform="translate(0 0)"/>
+      <circle id="Oval_Copy_2" data-name="Oval Copy 2" class="cls-4" cx="4.167" cy="4.167" r="4.167" transform="translate(21.667 8.333)"/>
+      <circle id="Oval_Copy_3" data-name="Oval Copy 3" class="cls-4" cx="4.167" cy="4.167" r="4.167" transform="translate(3.333 16.667)"/>
+    </g>
+    <text id="Label" class="cls-5" transform="translate(146.5 52)"><tspan x="-31.11" y="0">Filter</tspan></text>
+  </g>
+</svg>
